@@ -23,7 +23,7 @@ jobs:
     - name: Build application
       run: npm run build
       env:
-        OPENAI_API_KEY: ${{ secrets.API_KEY }}
+        API_KEY: ${{ secrets.API_KEY }}
 
     # Add steps for deployment, e.g., to a hosting service
     - name: Deploy
